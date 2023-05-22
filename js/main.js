@@ -2,9 +2,10 @@ $(window).scroll(function(){
     if($(this).scrollTop()>95)
     {
         $("header").addClass("aa")
+        $(".arrow").show()
     }
     else
     {
-        $("header").removeClass("aa")
+        $(".arrow").hide()
     }
 })
