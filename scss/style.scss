@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.bg1{
+    background-image: url(/images/background-12.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 130vh;
+    overflow: hidden;
+  }
+  header{
+    padding: 15px 0;
+  }
+  .container{
+    margin:auto;
+    max-width:1200px;
+  }
+  .f{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  nav{
+    ul{
+        list-style: none;
+        li{
+            display:inline;
+            padding:10px;
+            font-size: 18px;
+            a{
+                color:white;
+            }
+        }
+    }
+  }
+  .logo{
+    flex-grow:1;
+    padding-left:20px;
+  }
+  .btn{
+    border:2px solid #fff;
+    padding:20px 40px;
+    border-radius:30px;
+    margin-left: 20px;
+    color:#fff;
+   
+  }
+  .bg1_left{
+    color:#fff;
+    h1{
+        font-size:70px;
+        font-weight:900;
+        padding:20px 0;
+        color:#1bfca2;
+
+    }
+    h2{
+        font-size:55px;
+       color:aqua;
+       padding:20px 0;
+
+    }
+   
+  }
+  .f-1{
+display: flex;
+padding-top: 20px;
+justify-content: space-around;
+  }
+  .capital{
+    font-size: 150px;
+  }
+  .rotate{
+    animation: rot 12s infinite linear;
+  }
+  @keyframes rot {
+    100%{transform: rotate(360deg);}
+    
+    
+  }
+  .footer-container{
+    background-color: #06254C;
+    color: #fff;
+  
+
+  }
+  .copyright{
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+  }
+  .r{
+    width:39px;
+    height:20px;
+    border-radius:50%;
+    
+  }
+ .bgg1{
+  background-image:url(/images/background-12.jpg);
+  height: 100vh;
+
+  .small-box{
+    text-align: center;
+    background-color:#044557;
+    width: auto;
+    height:371px;
+  }
+  h1{
+    text-align: center;
+    font-size:80px;
+     color:aqua;
+    padding-top:40px;
+     padding-bottom:40px;
+  }
+  h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size:60px;
+    font-weight:900;
+    padding:20px 0;
+    color:#1bfca2;
+    
+  }
+  .f{
+    display: flex;
+    justify-content: space-around;
+  .gole{
+    border-radius: 50%;
+    width: 23px;
+    height: 27px;
+  }  
+
+  }
+  .box-f{
+    font-size: 30px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .box{
+    width: 200px;
+    height: 100px;
+    background-color:#F8ECFF;
+  }
+  .box1{
+    width: 200px;
+    height: 100px;
+    background-color:#FFBD80;
+  }
+  .box2{
+    width: 200px;
+    height: 100px;
+    background-color:#CCE6E4;
+  }
+  .box3{
+    width: 200px;
+    height: 100px;
+    background-color:#FCAAAA;
+  }
+    
+  }
+  
+  .bg21{
+    background-image: url(/images/background-12.jpg);
+    background-size:cover;
+    background-position: center;
+  }
+  
+.bg2{
+  h1{
+    font-size: 40px;
+   
+  }
+  color:#fff;
+  background: #06254C;
+  padding: 40px 0;
+  .z{
+    border-radius: 50%;
+    width: 578px;
+    height:575px;
+
+  }
+  &_left{
+      margin-right: 20px;
+
+  }
+  &_right{
+      color:#fff;
+      h4{
+          color:#00ff99;
+          padding:20px 0;
+      }
+      h1{
+          font-size: 36px;
+          padding: 20px 0;
+      }
+
+  }
+}
+.circle{
+  margin: 25px 0;
+  img{
+      border-radius: 50%;
+      margin-right: 20px;
+  }
+}
+.bg3{
+  background-image: url(/images/background-3.jpg);
+  background-size:cover;
+  background-position: center;
+}
+.cor-symptom{
+  padding:20px 0;
+  color:#fff;
+  text-align: center;
+  
+}
+.bg4{
+  background: #06254C;
+  padding: 40px 0;
+  &_left{
+      color:#fff;
+      h4{
+          color:#00ff99;
+          padding:20px 0;
+      }
+      h1{
+          font-size: 36px;
+          padding: 20px 0;
+      }
+
+      
+
+  }
+  &_right{
+      margin-right: 20px;
+      
+  }
+  .z{
+    border-radius: 50%;
+    width: 578px;
+    height:577px;
+}
+}
+.bg5{
+  background-image: url(/images/background-3.jpg);
+  background-size:cover;
+  background-position: center;
+}
+.w-100{
+width: 50px;
+height: 50px;
+}
+.aa{
+  background-color: #06254C;
+  color: #fff;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 999;
+}
